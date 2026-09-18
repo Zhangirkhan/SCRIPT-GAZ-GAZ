@@ -1,6 +1,8 @@
 # Generated source documents and intermediate exports
 miner_trading_results/data/pdf/
 miner_trading_results/data/csv/
+epo/data/pdf/
+epo/data/csv/
 tem/korem_files/
 tem/data/csv/
 tem/data/*.db
