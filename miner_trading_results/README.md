@@ -2,7 +2,7 @@
 
 Пайплайн скачивает PDF с [korem.kz](https://www.korem.kz/ru/news/rezultaty-torgov-tsm), парсит таблицы в CSV и загружает в SQLite.
 
-Для раздела **ТЭМ** (реестр сделок) см. папку [`tem/`](tem/README_tem.md).
+Для раздела **ТЭМ** (реестр сделок) см. папку [`electric_capacity_deal_register/`](../electric_capacity_deal_register/README.md).
 
 Годы: **2023–2026**. Раздел: централизованные торги для цифровых майнеров.
 

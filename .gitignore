@@ -1,11 +1,11 @@
 # Generated source documents and intermediate exports
-tsm/data/pdf/
-tsm/data/csv/
-epo/data/pdf/
-epo/data/csv/
-epo/data/*.db
-epo/data/manifest.jsonl
-epo/data/parse_errors.jsonl
+miner_trading_results/data/pdf/
+miner_trading_results/data/csv/
+power_producer_trading_results/data/pdf/
+power_producer_trading_results/data/csv/
+power_producer_trading_results/data/*.db
+power_producer_trading_results/data/manifest.jsonl
+power_producer_trading_results/data/parse_errors.jsonl
 vie_winner_registers/data/source/
 vie_winner_registers/data/csv/
 vie_winner_registers/data/*.db
@@ -35,14 +35,14 @@ epo_historical_results/data/csv/
 epo_historical_results/data/manifest.jsonl
 epo_historical_results/data/parse_errors.jsonl
 epo_historical_results/data/*.db
-tem/korem_files/
-tem/data/csv/
-tem/data/*.db
-tem/data/parse_errors.jsonl
+electric_capacity_deal_register/korem_files/
+electric_capacity_deal_register/data/csv/
+electric_capacity_deal_register/data/*.db
+electric_capacity_deal_register/data/parse_errors.jsonl
 
 # Local runtime artifacts
 .venv/
 __pycache__/
 *.py[cod]
 .DS_Store
-tsm/data/pdf_to_csv.log
+miner_trading_results/data/pdf_to_csv.log

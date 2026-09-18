@@ -8,14 +8,14 @@
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r epo/requirements.txt
+pip install -r power_producer_trading_results/requirements.txt
 
-python epo/01_download.py       # PDF → epo/data/pdf/YYYY/MM/
-python epo/02_to_csv.py         # PDF → epo/data/csv/YYYY/MM/
-python epo/03_load_sqlite.py    # CSV → epo/data/epo_trading_results.db
+python power_producer_trading_results/01_download.py  # PDF → data/pdf/YYYY/MM/
+python power_producer_trading_results/02_to_csv.py    # PDF → data/csv/YYYY/MM/
+python power_producer_trading_results/03_load_sqlite.py # CSV → data/epo_trading_results.db
 ```
 
-Все три скрипта работают с одной папкой `epo/data/` и их можно запускать
+Все три скрипта работают с одной папкой `data/` и их можно запускать
 повторно: уже скачанные и преобразованные файлы пропускаются.
 
 ## SQLite

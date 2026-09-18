@@ -11,7 +11,7 @@ PDF почти всегда — сканы: текст снимается чер
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r tem/requirements_tem.txt
+pip install -r electric_capacity_deal_register/requirements.txt
 ```
 
 Нужен macOS (для `ocrmac`).
@@ -19,7 +19,7 @@ pip install -r tem/requirements_tem.txt
 ## Запуск
 
 ```bash
-cd tem
+cd electric_capacity_deal_register
 python 01_download.py --all          # → korem_files/YYYY/MM/
 python 02_to_csv.py                  # korem_files/ → data/csv/
 python 03_load_sqlite.py             # CSV → data/korem_tem.db
@@ -31,12 +31,12 @@ python 03_load_sqlite.py             # CSV → data/korem_tem.db
 ## Структура
 
 ```
-tem/
+electric_capacity_deal_register/
   01_download.py
   02_to_csv.py
   03_load_sqlite.py
-  README_tem.md
-  requirements_tem.txt
+  README.md
+  requirements.txt
   korem_files/YYYY/MM/YYYY-MM-DD_{id}.pdf
   data/csv/YYYY/MM/YYYY-MM-DD_{id}.csv
   data/korem_tem.db
