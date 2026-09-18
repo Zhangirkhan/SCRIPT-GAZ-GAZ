@@ -1,0 +1,10 @@
+# Generated source documents and intermediate exports
+data/pdf/
+data/csv/
+
+# Local runtime artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+data/pdf_to_csv.log
