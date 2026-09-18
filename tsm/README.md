@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ```bash
 python 01_download.py          # PDF → data/pdf/YYYY/MM/
-python 02_pdf_to_csv.py        # PDF → data/csv/YYYY/MM/
+python 02_to_csv.py            # PDF → data/csv/YYYY/MM/
 python 03_load_sqlite.py       # CSV → data/korem.db
 ```
 

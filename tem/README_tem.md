@@ -20,21 +20,21 @@ pip install -r tem/requirements_tem.txt
 
 ```bash
 cd tem
-python 01_download_tem.py --all      # → korem_files/YYYY/MM/
-python 02_pdf_to_csv_tem.py          # korem_files/ → data/csv/
-python 03_load_sqlite_tem.py         # CSV → data/korem_tem.db
+python 01_download.py --all          # → korem_files/YYYY/MM/
+python 02_to_csv.py                  # korem_files/ → data/csv/
+python 03_load_sqlite.py             # CSV → data/korem_tem.db
 ```
 
-`01_download_tem.py` по умолчанию качает 1 файл; для всей коллекции — `--all`.  
+`01_download.py` по умолчанию качает 1 файл; для всей коллекции — `--all`.  
 `02`/`03` идемпотентны: повторный запуск пропускает уже обработанное (`--force` перезаписывает).
 
 ## Структура
 
 ```
 tem/
-  01_download_tem.py
-  02_pdf_to_csv_tem.py
-  03_load_sqlite_tem.py
+  01_download.py
+  02_to_csv.py
+  03_load_sqlite.py
   README_tem.md
   requirements_tem.txt
   korem_files/YYYY/MM/YYYY-MM-DD_{id}.pdf

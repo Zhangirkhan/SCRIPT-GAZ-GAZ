@@ -11,7 +11,7 @@ source .venv/bin/activate
 pip install -r epo/requirements.txt
 
 python epo/01_download.py       # PDF → epo/data/pdf/YYYY/MM/
-python epo/02_pdf_to_csv.py     # PDF → epo/data/csv/YYYY/MM/
+python epo/02_to_csv.py         # PDF → epo/data/csv/YYYY/MM/
 python epo/03_load_sqlite.py    # CSV → epo/data/epo_trading_results.db
 ```
 
