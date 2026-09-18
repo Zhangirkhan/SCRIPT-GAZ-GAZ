@@ -1,6 +1,6 @@
 # Generated source documents and intermediate exports
-data/pdf/
-data/csv/
+miner_trading_results/data/pdf/
+miner_trading_results/data/csv/
 tem/korem_files/
 tem/data/csv/
 tem/data/*.db
@@ -11,7 +11,4 @@ tem/data/parse_errors.jsonl
 __pycache__/
 *.py[cod]
 .DS_Store
-data/pdf_to_csv.log
-data/*.db
-data/parse_errors.jsonl
-data/manifest.jsonl
+miner_trading_results/data/pdf_to_csv.log
