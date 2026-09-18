@@ -1,6 +1,10 @@
 # Generated source documents and intermediate exports
 data/pdf/
 data/csv/
+tem/korem_files/
+tem/data/csv/
+tem/data/*.db
+tem/data/parse_errors.jsonl
 
 # Local runtime artifacts
 .venv/
@@ -8,3 +12,6 @@ __pycache__/
 *.py[cod]
 .DS_Store
 data/pdf_to_csv.log
+data/*.db
+data/parse_errors.jsonl
+data/manifest.jsonl
